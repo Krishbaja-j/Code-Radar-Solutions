@@ -8,4 +8,5 @@ float main(){
     scanf("%d",&b);
     float Product;
     printf("Product: %d",a*b);
+    return 0 ;
 }
