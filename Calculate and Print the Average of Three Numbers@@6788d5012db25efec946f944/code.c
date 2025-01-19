@@ -8,9 +8,9 @@ int main(){
     //printf("%d",b);
     scanf("%d",&c);
     //printf("%d",c);
-    int avg;
-    avg=a+b+c/3;
-    printf("Average: %d",avg);
+    //int avg;
+    //avg=a+b+c/3;
+    printf("Average: %d",a+b+c/3);
     return 0;
 
 }
