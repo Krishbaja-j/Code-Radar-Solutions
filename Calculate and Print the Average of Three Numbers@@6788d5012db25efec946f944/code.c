@@ -10,7 +10,7 @@ int main(){
     printf("%d",c);
     int avg;
     avg=a+b+c/3;
-    printf("%d",avg);
+    printf("Average: %d",avg);
     return 0;
 
 }
