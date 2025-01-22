@@ -4,4 +4,5 @@ int main(){
     scanf("%d",&x);
     scanf("%d",&y);
     printf("True",x>y);
+    printf("False",x<y);
 }
