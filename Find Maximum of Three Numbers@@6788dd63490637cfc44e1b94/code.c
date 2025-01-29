@@ -7,7 +7,7 @@ int main(){
     if(x>y&&x>z){
         printf("%d",x);
     }
-    if else(y>z&&y>x){
+    else if(y>z&&y>x){
         printf("%d",y);
 
     }
