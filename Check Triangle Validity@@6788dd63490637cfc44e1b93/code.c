@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&x);
     scanf("%d",&y);
     scanf("%d",&z);
-    if(x**2+y**2=z**2){
+    if(x*x+y*y=z*z){
         printf("Valid");
 
     }
