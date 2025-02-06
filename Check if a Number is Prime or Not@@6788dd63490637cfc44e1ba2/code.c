@@ -6,4 +6,7 @@ int main(){
     if(x%x==0 && x%1==0){
         printf("Prime",x);
     }
+    else{
+        printf("Not Prime",x);
+    }
 }
