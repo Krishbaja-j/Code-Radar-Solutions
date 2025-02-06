@@ -6,10 +6,10 @@ int main(){
     if(x== A){
         printf("Excellent");
     }
-    else if(x==B){
+    else if(x== B){
         printf("Good");
     }
-    else if(x==C){
+    else if(x== C){
         printf("Average");
     }
 }
