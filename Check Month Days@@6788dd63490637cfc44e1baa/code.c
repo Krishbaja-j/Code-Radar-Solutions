@@ -23,4 +23,25 @@ int main() {
     else if(x==6){
         printf("30");
     }
+    else if(x==7){
+        printf("30");
+    }
+    else if(x==8){
+        printf("31");
+    }
+    else if(x==9){
+        printf("30");
+    }
+    else if(x==10){
+        printf("31");
+    }
+    else if(x==11){
+        printf("30");
+        }
+    else if(x==12){    
+        printf("31");
+        }
+    else{    
+        printf("Invalid month");
+    }
 }
