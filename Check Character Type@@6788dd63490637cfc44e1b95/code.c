@@ -4,10 +4,10 @@
 int main() {
     char x;
     scanf("%c",&x);
-    if(x=='a','e','i','u','o'){
+    if(x=='a' || x=='e'|| x=='i' || x=='u'|| x=='o'){
         printf("Vowel",x);
     }
-    else if(x>='a' && x<='z' && x!='a','e','i','o','u'){
+    else if(x>='a' && x<='z' && x=='a' || x=='e'|| x=='i' || x=='u'|| x=='o'){
         printf("Consonant",x);
     }
 
