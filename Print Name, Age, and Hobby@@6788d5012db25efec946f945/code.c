@@ -8,4 +8,5 @@ int main(){
     printf("Age: %d",y);
     printf("Hobby: %s",z);
     
+    return 0;
 }
