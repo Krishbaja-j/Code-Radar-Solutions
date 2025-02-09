@@ -8,5 +8,14 @@ int main() {
     if (z == '+') {
         printf("%d\n", x + y);
     }
+    else if(z=='-'){
+        printf("%d\n",x-y);       
+    }
+    else if(z =='*'){
+        printf("%d",x*y);
+    }
+    else if(z == '\'){
+        printf("%d",x/y);
+    }
     return 0;
 }
