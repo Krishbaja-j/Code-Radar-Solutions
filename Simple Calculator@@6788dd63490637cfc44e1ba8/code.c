@@ -7,15 +7,18 @@ int main() {
     scanf("%c", &z);
     if (z == '+') {
         printf("%d\n", x + y);
-    }
-    else if(z == '-'){
-        printf("%d\n",x-y);       
-    }
-    else if(z =='*'){
-        printf("%d\n",x*y);
-    }
-    else if(z == '/'){
-        printf("%d\n",x/y);
+    } else if (z == '-') {
+        printf("%d\n", x - y);
+    } else if (z == '*') {
+        printf("%d\n", x * y);
+    } else if (z == '/') {
+        if (y != 0) {
+            printf("%d\n", x / y);
+        } else {
+            printf("Error: Division by zero is not allowed.\n");
+        }
+    } else {
+        printf("Invalid operation.\n");
     }
     return 0;
 }
