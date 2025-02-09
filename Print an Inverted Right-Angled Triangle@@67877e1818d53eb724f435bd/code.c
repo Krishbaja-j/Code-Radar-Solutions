@@ -2,5 +2,5 @@
 int main(){
     int x;
     scanf("%d",&x);
-    printf("*",n*x)
+    printf("*",n*x);
 }
