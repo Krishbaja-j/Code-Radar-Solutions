@@ -8,7 +8,7 @@ int main() {
     if (z == '+') {
         printf("%d\n", x + y);
     }
-    else if(z=='-'){
+    else if(z == '-'){
         printf("%d\n",x-y);       
     }
     else if(z =='*'){
