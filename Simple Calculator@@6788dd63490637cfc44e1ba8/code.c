@@ -5,6 +5,6 @@ int main(){
     scanf("%d%d",&x,&y);
     scanf("%c",&z);
     if(z=='+'){
-        printf("x+y");
+        printf("x+y",x+y);
     }
 }
