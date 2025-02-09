@@ -12,10 +12,10 @@ int main() {
         printf("%d\n",x-y);       
     }
     else if(z =='*'){
-        printf("%d",x*y);
+        printf("%d\n",x*y);
     }
     else if(z == '/'){
-        printf("%d",x/y);
+        printf("%d\n",x/y);
     }
     return 0;
 }
