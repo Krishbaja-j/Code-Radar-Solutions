@@ -10,7 +10,7 @@ int main() {
     }
 
     // Displaying the result
-    printf("%d\n", N, sum);
+    printf("%d\n", sum);
     
     return 0;
 }
