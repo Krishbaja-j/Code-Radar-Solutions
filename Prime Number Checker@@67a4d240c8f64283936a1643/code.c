@@ -1,4 +1,5 @@
-#incude<stdio.h>
+#include<stdio.h>
+#include<stdbool.h>
 void primeNum(int num){
     bool isPrime = true;
     for(int i=2;i<num;i++){
