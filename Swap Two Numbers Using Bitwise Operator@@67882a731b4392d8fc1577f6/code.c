@@ -3,7 +3,7 @@
 int main() {
     int a , b;
 
-    printf("%d %d", a, b);
+    printf("%d, %d", a, b);
 
     a = a ^ b;  // Step 1: a now holds a ^ b
     b = a ^ b;  // Step 2: b = (a ^ b) ^ b = a
