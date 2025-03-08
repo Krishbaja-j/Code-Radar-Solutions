@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-int getMSB(int num) {
-    int msb = 0; // Initialize MSB
-    while (num > 1) {
-        num >>= 1;  // Right shift the number
-        msb++;      // Increment MSB position
-    }
-    return 1 << msb; // Return the value of the MSB
-}
-
 int main() {
     int num;
-    scanf("%d",&num); // Example number
-    printf("Set", getMSB(num));
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    // Create a mask with MSB set (for 32-bit integer)
+    int msbMask = 1 << 31;
+
+    if (num & msbMask)
+        printf("Set");
+    else
+        printf("Not Set");
+
     return 0;
 }
