@@ -1,10 +1,15 @@
-#include<stdio.h>
-int main(){
-    int x,y,a,b;
-    scanf("%d %d",&x,&y);
-    int temp=a;
-    x=y;
-    y=temp;
-    printf("%d %d",x,temp);
+#include <stdio.h>
 
+int main() {
+    int a, b;
+    
+    //printf("Before swap: a = %d, b = %d\n", a, b);
+
+    int temp = a;
+    a = b;
+    b = temp;
+
+    printf("%d %d\n", a, b);
+
+    return 0;
 }
