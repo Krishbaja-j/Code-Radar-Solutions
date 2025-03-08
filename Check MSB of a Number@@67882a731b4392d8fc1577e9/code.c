@@ -2,7 +2,7 @@
 
 int main() {
     int num;
-    printf("Enter a number: ");
+    
     scanf("%d", &num);
 
     // Create a mask with MSB set (for 32-bit integer)
