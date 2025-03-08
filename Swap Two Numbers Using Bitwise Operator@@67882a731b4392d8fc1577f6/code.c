@@ -5,6 +5,6 @@ int main(){
     int temp=a;
     x=y;
     y=temp;
-    printf("%d %d",x,y);
+    printf("%d %d",x,temp);
 
 }
