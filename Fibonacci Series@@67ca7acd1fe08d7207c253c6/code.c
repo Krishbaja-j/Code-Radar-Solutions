@@ -7,6 +7,7 @@ int fibonacciSeries(int n) {
 
 int main() {
     int n;
+    printf("Enter a number: ");
     scanf("%d", &n);
 
     if (n <= 0) {
@@ -14,6 +15,6 @@ int main() {
         return 0;
     }
 
-    printf("%d\n", fibonacciSeries(n));
+    printf("Fibonacci(%d) = %d\n", n, fibonacciSeries(n));
     return 0;
 }
