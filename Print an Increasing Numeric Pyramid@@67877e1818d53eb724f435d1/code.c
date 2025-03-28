@@ -1,11 +1,24 @@
 #include<stdio.h>
 int main(){
-    int x;
-    scanf("%d",&x);
-    for(int i=1;i<=x;i++){
-        for(int j=1;j<=i;j++){
-            printf("%d",j);
-        }
-        printf("\n");
+    int n;
+    printf("Enter: ");
+    scanf("%d",&n);
+    int nsp =n-1;
+    for(int i=1; i<=n; i++){ 
+        //spaces
+        for(int q=1;q<=nsp;q++){
+        printf(" ");}
+    
+    nsp--;
+    for(int j=1;j<=i;j++){ // number triangle
+        printf("%d ",j);
     }
+    int a = i-1;
+    //for(int k=1;k<=i-1;k++){
+      //  printf("%d",a);
+       // a--;
+    //}
+    printf("\n");
+}
+    return 0;
 }
