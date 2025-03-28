@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int n;
-    printf("Enter: ");
+   // printf("Enter: ");
     scanf("%d",&n);
     int nsp =n-1;
     for(int i=1; i<=n; i++){ 
