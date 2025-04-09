@@ -4,10 +4,10 @@ int main() {
     int n;
 
     // Input number of rows
-    printf("Enter: ");
+    //printf("Enter: ");
     scanf("%d", &n);
     int nst =1;
-    int nsp=3;
+    int nsp=1;
     for(int i=1;i<=n;i++){
         for(int k=1;k<=nsp;k++){
             printf(" ");
