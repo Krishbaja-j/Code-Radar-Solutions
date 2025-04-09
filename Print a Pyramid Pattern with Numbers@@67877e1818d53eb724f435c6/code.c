@@ -7,7 +7,7 @@ int main() {
     //printf("Enter: ");
     scanf("%d", &n);
     int nst =1;
-    int nsp=1;
+    int nsp=0;
     for(int i=1;i<=n;i++){
         for(int k=1;k<=nsp;k++){
             printf(" ");
